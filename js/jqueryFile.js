@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    $("#aboutUsTitle").click(function(){
+      $("#aboutUsTitle").fadeToggle("slow");
+      $("#text1").slideDown(2500);
+      $("#text2").slideDown(3000);
+      $("#text3").slideDown(5000);
+      $("#text4").slideDown(7000);
+      $("#text5").slideDown(9000);
+      $("#text6").slideDown(11000);
+      $("#text7").slideDown(13000);
+      $("#text8").slideDown(15000);
+      $("#text9").slideDown(17000);
+      $("#text10").slideDown(19000);
+      $("#text11").slideDown(21000);
+    });
+  });

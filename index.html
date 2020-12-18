@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><title>Website</title>
+    <script src="js/index.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+
+    <!--Header Section-->   
+    <div class="header">
+        <div class="row1">
+            <div class="info">
+                <ul>
+                    <li>
+                        <span class="yellowCircle"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        Email: kidzschool@gmail.com </li>
+                    <li id="phoneHeader"><span class="greenCircle"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        Phone: 063/000-000 </li>
+                    <li id="timeHeader"><span class="redCircle"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                        Open: 9am-6pm </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="headerNB" id="headerNB">
+                <div class="logo_header">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo" class="logo" />
+                    </a>
+                </div>
+
+                <div class="NB_css">
+                    <ul>
+                        <li>
+                            <a href="contact.html"> <i class='fas fa-map-marker-alt' style='font-size:24px; padding-right: 5px;'></i>Kontakt </a> 
+                        </li>
+                        <li>
+                            <a href="gallery.html"> <i class="fa fa-picture-o" aria-hidden="true" style='font-size:24px; padding-right: 5px;'></i>Galerija </a>
+                        </li>
+                        <li>
+                            <a href="aboutUs.html"> <i class="fa fa-home nav-icon" aria-hidden="true" style='font-size:24px; padding-right: 2px;'></i></i> O nama </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="header_response">
+                <div class="linija_header_response">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo" class="logo" />
+                    </a>
+                    <div class="fa_bars">
+                        <img src="img/hamburger.png" alt="" onclick="nbPhone()">
+                    </div>
+                </div>
+
+                <div class="NB_css_response" id="NB_css_response">
+                    <ul>
+                        <li>
+                            <a href="aboutUs.html"><i class="fa fa-home nav-icon" aria-hidden="true"></i></i> O nama </a>
+                        </li>
+                        <li>
+                            <a href="gallery.html"> <i class="fa fa-picture-o" aria-hidden="true" style='padding-right: 5px;'></i>Galerija </a>
+                        </li>
+                        <li>
+                            <a href="contact.html"> <i class="fas fa-map-marker-alt" style='padding-right: 5px;'></i>Kontakt </a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header Section END-->
+    <!--Slider Section-->
+    <div id="slider">
+        <figure>
+            <img src="img/slide1.jpg">
+            <img src="img/slide2.jpg">
+            <img src="img/slide3.jpg">
+            <img src="img/slide4.jpg">
+            <img src="img/slide3.jpg">
+        </figure>
+    </div>
+    <!--Slider Section END-->
+    <!--Our Features-->
+        <div class="titleFeatures">
+            <p>Nase prednosti</p>
+        </div>
+        <div class="rowFeatures">
+            <div class="features">
+                <div class="iconFeature"><i class="fa fa-graduation-cap" aria-hidden="true" id="yellowIcon"></i></div>
+                <div class="textFeature">
+                    <h2>Dnevne aktivnosti</h2>
+                    <span>Raspored dnevnih aktivnosti pažljivo kreiran u harmoniji sa detetovim razvojnim potrebama tako da podstiče celokupni razvoj deteta.</span>
+                </div>
+            </div>
+            <div class="features">
+                <div class="iconFeature"><i class="fa fa-leaf" aria-hidden="true" id="greenIcon"></i></div>
+                <div class="textFeature"><h2>Sport</h2>
+                    <span>Sportska sala, ukupne površine od 50m2 , omogućava deci da se bave sportskim aktivnostima i kada im vreme ne dozvoljava da budu napolju. </span> 
+                </div>
+            </div>
+        <div class="features">
+            <div class="iconFeature"><i class="fas fa-utensils" aria-hidden="true" id="blueIcon"></i></div>
+            <div class="textFeature"><h2>Hrana</h2>
+                <span>Deca imaju 4 obroka: doručak, užina, ručak i užina. Sve se priprema u kuhinjama vrtića. Jelovnik se planira za celu nedelju i osmišljava ga nutricionista.</span> </div>
+        </div>
+        <div class="features">
+            <div class="iconFeature"><i class="fa fa-heart" aria-hidden="true" id="purpleIcon"></i></div>
+            <div class="textFeature"><h2>Okruženje</h2>
+                <span>Savremeni, moderno opremljeni, sanitarno uređeni prostori za boravak, igru, ishranu, odmor i san vašeg deteta.Vase dete ce biti ispunjeno tokom celog dana</span></div>
+        </div>
+        <div class="features">
+            <div class="iconFeature"><i class="fas fa-shield-alt" aria-hidden="true" id="pinkIcon"></i></div>
+            <div class="textFeature"><h2>Sigurnost</h2>
+                <span>Nega, sistematski pregledi pedijatra i izbalansirana ishrana u cilju postizanja optimalnog zdravstvenog stanja deteta u kolektivu.</span> </div>
+        </div><div class="features">
+            <div class="iconFeature"><i class="fa fa-car" aria-hidden="true" id="redIcon"></i></div>
+            <div class="textFeature"><h2>Prevoz</h2>
+                <span>Ova usluga podrazumeva mesečni prevoz dece na relaciji kuća-vrtić ili vrtić-kuća. </span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--Our Features END --> 
+
+    <div id="tim">
+        <h1 id="titleTim">TIM</h1>
+        <div class="clanovi_timovi">
+            <div class="clan_t"> 
+                <div> <img src="img/proba.jpg" alt="clan" /> </div>
+                <div> Marko Nikolić Owner</div>
+            </div>
+            <div class="clan_t"> 
+                <div> <img src="img/proba.jpg" alt="clan" /> </div>
+                <div> Marko Nikolić CEO </div>
+            </div>
+            <div class="clan_t"> 
+                <div> <img src="img/proba.jpg" alt="clan" /> </div>
+                <div> Marko Nikolić COO </div>
+            </div>
+            <div class="clan_t"> 
+                <div> <img src="img/proba.jpg" alt="clan" /> </div>
+                <div> Marko Nikolić CFO </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <div class="containter-footer-about">
+                <h1> O nama </h1>
+                <p>Nalazimo se u Beogradu kod Fakulteta Organizacionih Nauka, Jove Ilica 154. </p>
+                <p>063/000-000</p>
+                <p>kidzschool@gmail.com </p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="containter-footer-notion">
+                <p>Posaljite nam Vase utiske!</p>
+                <input id="noticeText" type="text" placeholder="Vasi utisci">
+                <button id="noticeBtn" onclick="validationFooter()">Posaljite utiske</button>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright © 2020, All Rights Reserved </p>
+    </div>
+</body>
+</html>

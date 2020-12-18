@@ -1,0 +1,726 @@
+body {
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#headerNB {
+    margin-top: 20px;
+    height: 80px;
+}
+
+.header_response {
+    display: none;
+}
+
+.headerNB {
+    display: flex;
+    width: 100%;
+    /* background-color: rgb(20, 111, 136, 0); */
+    position: relative;
+    padding-bottom: 0%;
+    z-index: 100;
+}
+
+.logo_header {
+    margin-left: 2%;
+    margin-top: 5px;
+    width: 30%;
+
+}
+
+.logo_header img {
+    width: 150px;
+    position: absolute;
+}
+
+.NB_css {
+    width: 70%;
+    margin: 14px 0% 0 110px;
+    height: 80px;
+}
+
+.NB_css ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.NB_css ul li{
+    float: right;
+    width: 27%;
+    margin-top: -5px;
+}
+
+.NB_css ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.buttonsHeader {
+    position: absolute;
+    right: 2%;
+    margin-top: 10px;
+}
+
+.fa .fa-home .nav-icon {
+    padding-right: 2px;
+}
+
+.clanovi_timovi {
+    width: 100%;
+    margin: 30px 0 0 0;
+    display: flex;
+  }
+  
+  .clanovi_timovi .clan_t {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .clanovi_timovi img{
+    width: 80%;
+    margin: 15px 0 5px 0;
+    border: 2px solid #71cbc9;
+    border-radius: 50%;
+  }
+  
+  .clanovi_timovi img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  #tim {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+  }
+  
+  #titleTim {
+    text-align: center;
+  }
+
+  .footer {
+    width: 100%;
+    background-color:#2f3c43;
+    border-top: 1px solid black;
+    padding: 40px 0;
+    position: relative;
+    color:white;
+  }
+  
+  .center {
+    max-width: 1220px;
+    margin: 0 0 0 80px;
+    width: 100%;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .footer{
+      display: flex;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 11px;
+    padding: 20px 0 10px 0;
+    background-color:#2f3c43;
+    color: white;
+  }
+  
+  .footer-left{
+    text-align: left;
+    width: 35%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .containter-footer-notion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #noticeText{
+    text-align: center;
+    padding: 70px;
+    outline: none;
+    border-color: #b5d56a;
+    border-radius: .625rem;
+    font-size: .875rem;
+    border-style: solid;
+  }
+  #noticeBtn{
+    padding: 10px 35px;
+    margin-top: 10px;
+    border:0;
+    outline: none ;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #ea7066;
+    border-color: #ea7066;
+    border-radius: .625rem;
+    color: white;
+  }
+#nbPhone{
+    display: none;
+}
+.row1{
+   background-color:#2f3c43;
+   padding-top: 14px;
+   padding-bottom: 4px;
+   display: flex;
+}
+
+.row1 .info ul li {
+   display: inline;
+   padding: 10px;
+   color: white;
+}
+#hamburgerNb{
+    display: none;
+}
+.yellowCircle {
+   background-color: #f0c24b;
+   padding: 2px;
+   border-radius: 25%;
+}
+
+.yellowCircleNb {
+   background-color: #f0c24b;
+   padding: 12px;
+   border-radius: 50%;
+}
+
+#yellowIcon {
+   background-color: #f0c24b;
+   padding: 46px;
+   font-size: 46px;
+   border-radius: 50%;
+}
+
+.greenCircle {
+   background-color: #b5d56a;
+   padding: 2px;
+   border-radius: 25%;
+}
+
+.greenCircleNb {
+   background-color: #b5d56a;
+   padding: 12px;
+   border-radius: 50%;
+}
+
+#greenIcon {
+   background-color: #b5d56a;
+   padding: 46px;
+   font-size: 46px;
+   border-radius: 50%;
+}
+
+.redCircle {
+   background-color: #5a0a0a;
+   padding: 2px;
+   border-radius: 25%;
+}
+
+.redCircleNb {
+   background-color: #5a0a0a;
+   padding: 12px;
+   border-radius: 50%;
+}
+
+#redIcon {
+   background-color: #5a0a0a;
+   padding: 46px;
+   font-size: 46px;
+   border-radius: 50%;
+}
+
+.blueCircle {
+   background-color: #84bed6;
+   padding: 2px;
+   border-radius: 25%;
+}
+
+.blueCircleNb {
+   background-color: #84bed6;
+   padding: 12px;
+   border-radius: 50%;
+}
+
+#blueIcon {
+   background-color: #84bed6;
+   padding: 46px;
+   font-size: 46px;
+   border-radius: 50%;
+}
+
+.purpleCircleNb {
+   background-color: #a597e7;
+   padding: 12px;
+   border-radius: 50%;
+}
+
+#purpleIcon {
+   background-color: #a597e7;
+   padding: 46px;
+   font-size: 46px;
+   border-radius: 50%;
+}
+
+.pinkCircle {
+   background-color:#ea77ad;
+   padding: 2px;
+   border-radius: 25%;
+}
+
+.pinkCircleNb {
+   background-color:#ea77ad;
+   padding: 12px;
+   border-radius: 50%;
+}
+
+#pinkIcon {
+   background-color:#ea77ad;
+   padding: 46px;
+   font-size: 46px;
+   border-radius: 50%;
+}
+
+.headerLogo {
+   width: 50%;
+}
+
+.headerLogo img {
+   width: 80%;
+   padding-left: 10px;
+}
+
+#navbar-toggler {
+   background-color: #2f3c43;
+}
+
+#navbar-brand {
+   width: 50%;
+}
+
+@keyframes slidy {
+   0% { left: 0%; }
+   20% { left: 0%; }
+   25% { left: -100%; }
+   45% { left: -100%; }
+   50% { left: -200%; }
+   70% { left: -200%; }
+   75% { left: -300%; }
+   95% { left: -300%; }
+   100% { left: -400%; }
+}
+#slider { 
+    overflow: hidden; 
+}
+#slider figure img { 
+    width: 20%;
+    float: left; 
+}
+#slider figure { 
+   position: relative;
+   width: 500%;
+   margin: 0;
+   left: 0;
+   text-align: left;
+   font-size: 0;
+   animation: 30s slidy infinite; 
+}
+
+.titleFeatures p {
+   font-size: 40px;
+   text-align: center;
+}
+.textFeature {
+    width: 30vw;
+}
+.rowFeatures{
+   display: block;
+   overflow: hidden;
+   width: 100%;
+   margin-left: 5%;
+   max-width: 90%;
+   margin-bottom: 20px;
+}
+.features{
+   display: block;
+   float: left;
+   text-align: center;
+   width: calc(100% / 3);
+}
+.iconFeature i{
+   margin-top: 10px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   text-align: center;
+   border: 2px solid #fff;
+   font-size: 1.38rem;
+   color: white;
+}
+
+#navbar-nav {
+   padding-top: 20px;
+}
+
+#navbar-nav li{
+   padding-right: 15px;
+}
+
+.text-navbar {
+   color: black;
+   padding-top: 5px;
+}
+
+.center-text {
+   text-align: center;
+}
+
+
+@media only screen and (max-width: 1100px) {
+   .row1 {
+       display: flex;
+   }
+   .row1 .info {
+       width: 100%;
+   }
+   #timeHeader {
+       display: none;
+   }
+   .row1 .info ul li {
+       padding: 10px;
+       color: white;
+   }
+   .titleFeatures p {
+       font-size: 40px;
+       text-align: center;
+   }
+   .textFeature {
+       width: 45vw;
+   }
+   .rowFeatures {
+       overflow: hidden;
+       margin-left: 5%;
+   }
+   .features {
+       width: calc(100% / 2);
+   }
+   .iconFeature i {
+       margin-top: 10px;
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       text-align: center;
+       border: 2px solid #fff;
+       font-size: 1.38rem;
+   }
+}
+
+@media only screen and (max-width: 940px) {
+   .row1 {
+       display: flex;
+   }
+   .row1 .info {
+       width: 100%;
+   }
+    #timeHeader {
+        display: none;
+    }
+   .row1 .info ul li {
+       padding: 4px;
+       color: white;
+   }
+   .titleFeatures p {
+       font-size: 40px;
+       text-align: center;
+   }
+   .textFeature {
+       width: 40vw;
+   }
+   .features {
+       width: calc(100% / 2);
+   }
+}
+
+@media only screen and (max-width: 870px) {
+   .row1 {
+       display: flex;
+   }
+   .row1 .info {
+       width: 100%;
+   }
+    #nbCourses{
+        padding-right: 0%;
+    }
+   #timeHeader {
+       display: none;
+   }
+   .row1 .info ul li {
+       padding: 4px;
+       color: white;
+   }
+   .headerLogo img {
+       width: 100%;
+       padding-left: 10px;
+   }
+   .headerLogo {
+       padding: 2%;
+       margin-right: 0%;
+   }
+   .titleFeatures p {
+       font-size: 40px;
+       text-align: center;
+   }
+   .textFeature h1 {
+      width: 45vh;
+   }
+   .features {
+       width: calc(100% / 2);
+   }
+   .footer{
+       display: flex;
+       flex-direction: column;
+   }
+   .footer{
+      display: flex;
+  }
+  .footer-left{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .containter-footer-notion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #noticeText{
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  #noticeBtn{
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+@media (max-width: 850px){
+    #timResponse {
+        height: auto;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 50px;
+      }
+    .NB_css {
+       display: none;
+    }
+
+    #headerNB {
+        height: auto;
+    }
+
+    .header_response img {
+        width: 125px;
+        position: absolute;
+        margin-left: 6%;
+    }
+    .logo {
+        padding-top: 10px;
+
+    }
+    .buttonsHeader {
+        display: none;
+    }
+    .logo_header {
+        display: none;
+    }
+
+    .linija_header_response {
+        height: 80px;
+        display: block;
+        background-color: white;
+    }
+
+    .linija_header_response h2 {
+        color: white;
+        margin-left: 2%;
+        padding-top: 15px;
+    }
+    
+    .NB_css_response {
+        display: none;
+        width: 100%;
+        background-color: white;
+        color: black;
+        height: 50px;
+        /* opacity: 0.99; */
+        z-index: 1000;
+        position: relative;
+
+    }
+
+    .NB_css_response ul {
+        width: 95%;
+        display: flex;
+        top: -30px;
+        position: absolute;
+        padding: 0;
+        margin-left: 0%;
+    }
+
+    .NB_css_response ul li{
+        list-style: none;
+        text-align: center;
+        margin-left: 0%;
+        width: 50%;
+        padding-top: 30px;
+ 
+    }
+
+    .NB_css_response ul li a{
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+        width: 100%;
+    }
+
+    .logo_header img{
+        width: 50px;
+        left: 10%;
+        top: 4px;
+        position: absolute;
+    }
+
+    .header_response {
+        display: block;
+        background-color: rgb(0, 0, 0,0.6);
+        position: relative;
+    }
+
+    .fa_bars {
+        position: absolute;
+        right: 22%;
+    }
+    .fa_bars img{
+        width: 60px;
+
+    }
+    .clanovi_timovi {
+        margin: 30px 0 0 0;
+        display: flex;
+        flex-direction: column;
+      }
+      .clanovi_timovi img{
+        width: 160px;
+      }
+}
+@media only screen and (max-width: 770px) {
+   .row1 {
+       display: flex;
+   }
+   .row1 .info {
+       width: 100%;
+   }
+    #nbCourses{
+        padding-right: 0%;
+    }
+    #phoneHeader {
+        display: none;
+    }
+    #hamburgerNb{
+        display: block;
+        width: 10%;
+        height: auto;
+        margin-left: auto;
+        margin-right: 5%;
+    }
+    #timeHeader {
+        display: none;
+    }
+    .row1 .info ul li {
+        padding: 0px;
+        color: white;
+    }
+    .row1 .info ul{
+        padding-left: 10px;
+    }
+    .headerLogo {
+        width: 100%;
+    }
+    .headerLogo img{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .titleFeatures p {
+        font-size: 40px;
+        text-align: center;
+    }
+    .textFeature {
+        width: 40vw;
+    }
+    .rowFeatures {
+        margin-left: 5%;
+        max-width: 90%;
+    }
+    .features {
+        width: calc(100% / 2);
+    }
+    .center-text {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+   .features {
+       width: calc(100% / 1);
+       text-align: center;
+   }
+
+   .features h2 {
+       width: 100%;
+       text-align: center;
+   }
+
+   .textFeature {
+        width: 80vw;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: justify;
+    }
+
+    .rowFeatures {
+        margin-left: 0%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .NB_css_response ul li {
+        width: 50%;
+    }
+
+    .NB_css_response ul {
+        margin-left: -1%;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .NB_css_response ul li a{
+        font-size: 15px;
+    }
+}

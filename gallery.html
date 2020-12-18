@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><title>Website</title>
+    <script src="js/index.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--Header Section-->   
+    <div class="header">
+        <div class="row1">
+            <div class="info">
+                <ul>
+                    <li>
+                        <span class="yellowCircle"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        Email: kidzschool@gmail.com </li>
+                    <li id="phoneHeader"><span class="greenCircle"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        Phone: 063/000-000 </li>
+                    <li id="timeHeader"><span class="redCircle"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                        Open: 9am-6pm </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="headerNB" id="headerNB">
+                <div class="logo_header">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo" class="logo" />
+                    </a>
+                </div>
+
+                <div class="NB_css">
+                    <ul>
+                        <li>
+                            <a href="contact.html"> <i class='fas fa-map-marker-alt' style='font-size:24px; padding-right: 5px;'></i>Kontakt </a> 
+                        </li>
+                        <li>
+                            <a href="gallery.html"> <i class="fa fa-picture-o" aria-hidden="true" style='font-size:24px; padding-right: 5px;'></i>Galerija </a>
+                        </li>
+                        <li>
+                            <a href="aboutUs.html"> <i class="fa fa-home nav-icon" aria-hidden="true" style='font-size:24px; padding-right: 2px;'></i></i> O nama </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="header_response">
+                <div class="linija_header_response">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo" class="logo" />
+                    </a>
+                    <div class="fa_bars">
+                        <img src="img/hamburger.png" alt="" onclick="nbPhone()">
+                    </div>
+                </div>
+
+                <div class="NB_css_response" id="NB_css_response">
+                    <ul>
+                        <li>
+                            <a href="aboutUs.html"><i class="fa fa-home nav-icon" aria-hidden="true"></i></i> O nama </a>
+                        </li>
+                        <li>
+                            <a href="gallery.html"> <i class="fa fa-picture-o" aria-hidden="true" style='padding-right: 5px;'></i>Galerija </a>
+                        </li>
+                        <li>
+                            <a href="contact.html"> <i class="fas fa-map-marker-alt" style='padding-right: 5px;'></i>Kontakt </a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header Section END-->
+    <div class="galleryContainer">
+        <h1 class="heading">Image Gallery</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img class="gallery-image" src="img/gallery1.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="img/gallery2.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="img/gallery3.jpg" alt="">
+           </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="img/gallery4.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="img/gallery5.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="img/gallery6.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="img/gallery7.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="img/gallery8.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-left">
+            <div class="containter-footer-about">
+                <h1> O nama </h1>
+                <p>Nalazimo se u Beogradu kod Fakulteta Organizacionih Nauka, Jove Ilica 154. </p>
+                <p>063/000-000</p>
+                <p>kidzschool@gmail.com </p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="containter-footer-notion">
+                <p>Posaljite nam Vase utiske!</p>
+                <input id="noticeText" type="text" placeholder="Vasi utisci">
+                <button id="noticeBtn" onclick="validationFooter()">Posaljite utiske</button>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright © 2020, All Rights Reserved </p>
+    </div>
+    
+</body>
+</html>
