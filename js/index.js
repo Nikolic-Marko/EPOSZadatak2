@@ -15,5 +15,20 @@ function validationFooter(){
     }
     window.alert("Hvala vam!");
     location.reload();
-    
+}   
+function onlyOne(checkbox) {
+    var checkboxes = document.getElementsByName('check')
+    checkboxes.forEach((item) => {
+        if (item !== checkbox) item.checked = false
+    })
 }
+function makeAppointment(){
+    var time = document.getElementById("meetingStart").value;
+    var checkBox = document.getElementsByName('check')
+    if (!time || checkBox.checked) {
+        window.alert("Niste pravilno popunili formu!");
+        return;
+    }
+    window.alert("Uspesno ste zakazali sastanak!");
+    location.reload();
+}   

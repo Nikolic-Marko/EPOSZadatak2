@@ -10,7 +10,6 @@
     <script src="jquery-3.5.1.min.js"></script>
 </head>
 <body>
-
     <!--Header Section-->   
     <div class="header">
         <div class="row1">
@@ -33,7 +32,6 @@
                         <img src="img/logo.png" alt="logo" class="logo" />
                     </a>
                 </div>
-
                 <div class="NB_css">
                     <ul>
                         <li>
@@ -149,6 +147,17 @@
                 <div> Marko Nikolić CFO </div>
             </div>
         </div>
+    </div>
+
+    <div class="meeting-container">
+        <h1>Zakazite sastanak sa nama!</h1>
+        <p>Izaberite nacin prisustvovanja sastanku:</p>
+        <div class="checkboxMeeting">
+            <input type="checkbox" name="check" onclick="onlyOne(this)" id="checkBoxes">Online
+            <input type="checkbox" name="check" onclick="onlyOne(this)" id="checkBoxes">Kod nas
+        </div>
+        <input type="date" id="meetingStart" min="2020-12-19" max="2022-12-19">
+        <button id="meetingBtn" onclick="makeAppointment()">Zakazite sastanak</button>
     </div>
 
     <div class="footer">
