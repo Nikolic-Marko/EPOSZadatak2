@@ -314,7 +314,7 @@ html {
    width: 50%;
 }
 
-@keyframes slidy {
+@keyframes nikolicSlider {
    0% { left: 0%; }
    20% { left: 0%; }
    25% { left: -100%; }
@@ -339,7 +339,7 @@ html {
    left: 0;
    text-align: left;
    font-size: 0;
-   animation: 30s slidy infinite; 
+   animation: 30s nikolicSlider infinite; 
 }
 
 .titleFeatures p {
